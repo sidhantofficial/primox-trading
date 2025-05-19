@@ -195,12 +195,12 @@ export default function Home() {
         })
 
         // Add a highlight animation for the Food Safety section
-        if (sectionKey === "foodSafety") {
-          section.classList.add("highlight-section")
-          setTimeout(() => {
-            section.classList.remove("highlight-section")
-          }, 1500)
-        }
+        // if (sectionKey === "foodSafety") {
+        //   section.classList.add("highlight-section")
+        //   setTimeout(() => {
+        //     section.classList.remove("highlight-section")
+        //   }, 1500)
+        // }
 
         setActiveSection(sectionKey)
         setIsMobileMenuOpen(false) // Close mobile menu after navigation
