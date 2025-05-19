@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+# .env
+# .env.local
+# .env.development.local
+# .env.test.local
+# .env.production.local
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Dependency locks (optional — include only one)
+# Uncomment the ones you don't want to commit
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Coverage reports
+# coverage/
+
+# Misc
+# *.log
+# *.swp
